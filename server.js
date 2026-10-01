@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.static('public'));
 
 // ⚠️ เปลี่ยนเป็นเบอร์พร้อมเพย์ หรือ เลขบัตรประชาชนของนายได้เลย
-const PROMPTPAY_NUMBER = "0812345678"; 
+const PROMPTPAY_NUMBER = "0815780457"; 
 
 // API สำหรับเจน PromptPay QR Code
 app.post('/api/generate-qr', async (req, res) => {
